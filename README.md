@@ -1,2 +1,2 @@
-# ADP
-Teme de laborator
+# APD
+Teme laborator - algoritmi paraleli si distribuiti
