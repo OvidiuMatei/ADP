@@ -40,7 +40,7 @@ int main(int argc, char *argv[]) {
 
 		int auxSum;
 
-		for (i = 0; i < nrProcs; i++) {
+		for (i = 1; i < nrProcs; i++) {
 			MPI_Recv(&auxSum, 1, MPI_INT, i, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
 
 			printf("Received %d from rank #%d\n", auxSum, i);
