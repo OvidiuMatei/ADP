@@ -18,7 +18,7 @@ void main()
 
 	int optimal_cost_matrix[SIZE][SIZE];
 
-	int numprocs, procid, len, partner, message;
+	int numprocs, procid;
 	char hostname[MPI_MAX_PROCESSOR_NAME];
 	MPI_Init(NULL, NULL);
 	MPI_Comm_size(MPI_COMM_WORLD, &numprocs);
